@@ -1,0 +1,36 @@
+{
+	"name": "filesaver",
+	"description": "file saver bot",
+	"repository": "https://github.com/Amalrajanj/filesaver",
+    "logo": "https://node-js-sample.herokuapp.com/node.png",
+	"keywords": ["telegram","filesaver","bot","nodejs"],
+	"env": {
+		"TOKEN": {
+			"description": "bot token provided by @botfather",
+            "value":"1658055049:AAEWXD_2dI5XpmwVMvM9t-gWSaBtPm0_11k"
+		},
+        "DOMAIN":{
+            "description": "enter your app name",
+            "value":"annebotlink"
+		},
+        "DB_URL":{
+            "description": "get mongodb database url from https://www.mongodb.com/cloud/atlas with database name = mediaFile and collection name = fileBackup",
+            "value":"mongodb+srv://facu:root@mediafile.nhjmc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+        },
+        "ADMIN":{
+            "description": "enter your id",
+            "value":"1063096109"
+        },
+        "BOTUSERNAME":{
+            "description":"Enter your bot username without @",
+            "value":"botdelinkbot"
+        }
+        
+        	
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/nodejs"
+		}
+	]
+}
